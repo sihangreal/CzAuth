@@ -1,0 +1,5 @@
+# code first 
+## 程序包管理器控制台 
+### 初始命令
+1. Add-Migration FirstMigration
+2. Update-Database -Verbose

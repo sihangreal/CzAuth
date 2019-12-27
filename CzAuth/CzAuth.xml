@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CzAuth</name>
+    </assembly>
+    <members>
+        <member name="M:CzAuth.Controllers.AuthController.Login(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="userName"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CzAuth.Modes.ResponseModel">
+            <summary>
+            请求响应实体类
+            </summary>
+        </member>
+        <member name="P:CzAuth.Modes.ResponseModel.Code">
+            <summary>
+            响应代码
+            </summary>
+        </member>
+        <member name="P:CzAuth.Modes.ResponseModel.Message">
+            <summary>
+            响应消息内容
+            </summary>
+        </member>
+        <member name="P:CzAuth.Modes.ResponseModel.Data">
+            <summary>
+            返回响应数据
+            </summary>
+        </member>
+        <member name="M:CzAuth.Modes.ResponseModel.SetSuccess(System.String)">
+            <summary>
+            设置响应状态为成功
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:CzAuth.Modes.ResponseModel.SetFailed(System.String)">
+            <summary>
+            设置响应状态为失败
+            </summary>
+            <param name="message"></param>
+        </member>
+    </members>
+</doc>
